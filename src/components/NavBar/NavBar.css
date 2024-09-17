@@ -1,0 +1,91 @@
+@media (320px <= width <= 480px){
+
+}
+
+@media (481px <= width <= 768px){
+
+
+}
+
+@media (769px <= width <= 1024px){
+
+}
+
+@media (1025px <= width <= 1200px){
+
+}
+
+@media (1201px <= width <= 1920px){
+
+    .navBar-container{
+        width: 100vw;
+        height: 130px;
+        padding: 0 10vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F6F8FD;
+    }
+    
+    .navBar-container .logo{
+        width: 30%;
+        height: 100px;
+        border-bottom: 1px solid #0D2E4E;
+        /* border: thin dotted #f0f; */
+    }
+    
+    .menu{
+        width: 50%;
+        height: 100px;
+        display: flex;
+        /* border: thin dotted #f0f; */
+        border-bottom: 1px solid #0D2E4E;
+    }
+    
+    .menu-items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-items .active{
+        height: 65px;
+        color: #2289FF;
+        margin-top: 40px;
+        border-bottom: 5px solid #2289FF;
+    }
+    
+    .menu-items li{
+        font-size: 1.5rem;
+        margin: 0 20px;
+        color: #0D2E4E;
+    }
+    
+    .button-contact-container{
+        width: 20%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        border-bottom: 1px solid #0D2E4E;
+        /* border: thin dotted #f0f; */
+    }
+
+    .button-contact{
+        padding: 15px 55px;
+        border-radius: 5px;
+        font-size: 1.4rem;
+        border: none;
+        color: #FFFFFF;
+        background-color: #2289FF;
+        cursor: pointer;
+    }
+
+}
+
+
+
+
+

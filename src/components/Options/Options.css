@@ -1,0 +1,95 @@
+@media (320px <= width <= 480px){
+
+}
+
+@media (481px <= width <= 768px){
+
+
+}
+
+@media (769px <= width <= 1024px){
+
+}
+
+@media (1025px <= width <= 1200px){
+
+}
+
+@media (1201px <= width <= 1920px){
+
+    .options-container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(180deg,rgba(236, 235, 236,1) 10%, rgba(255, 255, 255, 1) 30%);
+    }
+
+    .options-container h1{
+        font-size: 3rem;
+        color: #0D2E4E;
+        margin-top: -20px;
+        margin-bottom: 80px;
+    }
+
+    .options-container .options-group{
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .options-container .option{
+        width: 350px;
+        height: 350px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 2px solid #FFFFFF;
+        background-color: #F6F8FD;
+        transition: 0.5s all ease-in-out;
+        cursor: pointer;
+    }
+    
+    .options-container .option:hover{
+        background-color: #2289FF;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0 30px 40px rgba(0,0,0,.2);
+    }
+    
+    .options-container .option:hover > .text-card,
+    .options-container .option:hover > .title-card{
+        color: #FFFFFF;
+    }
+    
+    .options-container .option .icon-card{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: #2289FF;
+        background-color: #FFFFFF;
+    }
+    
+    .options-container .option .title-card{
+        color: #0D2E4E;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .options-container .option .text-card{
+        color: #0D2E4E;
+        font-size: 1.2rem;
+        line-height: 25px;
+        transition: 0.3s all ease-in-out;
+    }
+
+}

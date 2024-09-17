@@ -1,0 +1,117 @@
+@media (320px <= width <= 480px){
+
+}
+
+@media (481px <= width <= 768px){
+
+
+}
+
+@media (769px <= width <= 1024px){
+
+}
+
+@media (1025px <= width <= 1200px){
+
+}
+
+@media (1201px <= width <= 1920px){
+
+    .location-container{
+        width: 100vw;
+        height: 110vh;
+        display: flex;
+        flex-direction: row;
+        padding: 0 10vw;
+        background-color: #F6F8FD;
+    }
+    
+    .location-container .image-location{
+        width: 40%;
+        padding: 10vh 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .location-container .image-location img{
+        width: 95%;
+        height: 95%;
+        border-radius: 10px;
+    }
+    
+    .location-container .info-location{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .location-container .info-location .item-property{
+        width: 80%;
+        height: 180px;
+        margin: 40px 0;
+        padding: 30px;
+        border: 2px solid #F6F8FD;
+        border-radius: 10px;
+        background-color: #F6F8FD;
+        transition: 0.5s all ease-in-out;
+        cursor: pointer;
+    }
+
+    .location-container .info-location .item-property p{
+        width: 90%;
+        font-size: 1.2rem;
+        line-height: 25px;
+        color: #5F676E;
+        transition: 0.3s all ease-in-out;
+    }
+
+    .location-container .info-location .item-property:hover{
+        background-color: #2289FF;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0 30px 40px rgba(0,0,0,.2);
+    }
+
+    .location-container .info-location .item-property:hover > p,
+    .location-container .info-location .item-property:hover > .title-property .text-title h2{
+        color: #FFFFFF;
+    }
+
+    .location-container .info-location .item-property:hover > .title-property .icon-title{
+        color: #2289FF;
+        border: 1px solid #2289FF;
+    }
+
+    .location-container .info-location .item-property .title-property{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .location-container .info-location .item-property .title-property .icon-title{
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        margin-right: 20px;
+        color: #0D2E4E;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        border: 1px solid #afafaf;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .location-container .info-location .item-property .title-property .text-title h2{
+        color: #0D2E4E;
+        font-size: 2rem;
+        transition: 0.3s all ease-in-out;
+    }
+
+}
