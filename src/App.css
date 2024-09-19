@@ -20,3 +20,31 @@ html{
 ul li{
   list-style: none;
 }
+
+.btn-gral-1{
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  color: #FFFFFF;
+  background-color: #2289FF;
+  cursor: pointer;
+}
+
+.btn-gral-2{
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  border: none;
+  color: #FFFFFF;
+  background-color: #2289FF;
+  cursor: pointer;
+}
+
+.select-gral{
+  font-size: 1.3rem;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 2px solid #2289FF;
+  color: #2289FF
+}
