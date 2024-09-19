@@ -5,6 +5,7 @@ import Options from './components/Options/Options';
 import Property from './components/Property/Property';
 import './App.css'
 import Examples from './components/Examples/Examples';
+import Details from './components/Details/Details';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Options />
       <Property />
       <Examples />
+      <Details />
 
     </div>
   )

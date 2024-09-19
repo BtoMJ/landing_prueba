@@ -29,6 +29,7 @@ ul li{
   color: #FFFFFF;
   background-color: #2289FF;
   cursor: pointer;
+  transition: .5s all ease-in-out;
 }
 
 .btn-gral-2{
@@ -39,6 +40,12 @@ ul li{
   color: #FFFFFF;
   background-color: #2289FF;
   cursor: pointer;
+  transition: .5s all ease-in-out;
+}
+
+.btn-gral-1:hover,
+.btn-gral-2:hover{
+  background-color: #0D2E4E;
 }
 
 .select-gral{
